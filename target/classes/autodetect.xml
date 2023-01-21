@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean id="categories" class="com.autodetect.Categories"
+		autowire="autodetect">
+		
+		<constructor-arg value="Life Insurance"></constructor-arg>
+	</bean>
+	<bean id="policy" class="com.autodetect.Policy">
+		<constructor-arg value="Term Plan"></constructor-arg>
+		<constructor-arg value="8500"></constructor-arg>
+	</bean>
+</beans>
